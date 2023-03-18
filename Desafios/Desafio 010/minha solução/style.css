@@ -1,0 +1,107 @@
+
+@charset"UTF-8";
+
+@font-face{
+    font-family: 'idroid'; src: url(fontes/idroid.otf) format('opentype');
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+}
+
+h2{
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #134127;
+}
+
+h3{
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #134127;
+    background-image: linear-gradient(90deg, #BFE4D0,  #FEFEFE);
+}
+
+p{
+    text-indent: 30px;
+}
+p#links{
+    text-align: left;
+}
+a:link {
+    text-decoration: none;
+    color: beige;
+    margin-right: 20px;
+}
+
+a:visited{
+    color: bisque;
+}
+a:hover{
+    color: aqua;
+}
+a.linktexto{
+    font-weight: bolder;
+    color: green;
+}
+a.linktexto2{
+    color: black;
+    text-decoration: underline;
+}
+p#listas{
+    display: inline;
+}
+h4{
+    background-color:  #2FA866;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+div#queraprendermais{
+    background-color: #C5EBD6;
+    padding: 1px 10px 10px 10px;
+    margin: 0px 15px 15px 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+div#videoyoutube{
+    background-color: #1A5C38;
+    padding: 15px;
+    text-align: center;
+    margin:auto;
+}
+
+div.imagem{
+    text-align: center;
+    margin: auto;
+}
+
+
+header{
+    text-align: center;
+    color: beige;    
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.521);
+    margin: -22px;
+    padding: 5px 5px 5px -10px;
+    font-size: 17px;
+    background-image: linear-gradient(0deg, #1a5c38,#3CD983);
+  
+}
+main{
+    background-color: aliceblue;
+    text-align: justify;
+    padding: 10px;
+    margin: 22px 15px 15px 15px;
+    box-shadow: 2px 1px 5px 2px rgb(0 0 0 / 37%);
+    border-radius: 0px 0px 10px 10px;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: #1A5C38;
+    padding: 1px;
+    font-size: 14px;
+    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.295);
+}

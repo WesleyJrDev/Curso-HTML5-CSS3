@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML 5</title>
+</head>
+
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <video controls width="560" poster="Imagens/Digitando.png" muted autoplay loop>
+        <source src="midias/Digitando.mp4" type="video/mp4">
+        <source src="midias/Digitando.webm" type="video/webm">
+        <p>Seu navegador não suporta esses formatos de video</p>
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <!--para compiar endereço do video: Compartilhar -> Incorporar -> Copia o texto -->
+    <p>Esse video está hospedado num servidor externo, no Google.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; muted; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/44749820?h=0d2f901e58&autoplay=1&loop=1&color=ff9933" width="640"
+        height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Rumble</h1>
+
+    <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v26bp0k/?pub=4" frameborder="0"
+        allowfullscreen></iframe>
+
+
+
+</body>
+
+</html>

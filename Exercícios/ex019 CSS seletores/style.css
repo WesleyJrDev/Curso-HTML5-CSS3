@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* id no HTML, CSS #
+Class no HTML, CSS . */
+
+body {
+    background-color: rgb(190, 190, 162);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(8, 8, 14);
+}
+
+h1#principal {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.403);
+    font-size: 60px;
+}
+
+h2 {
+    color: rgb(27, 27, 36);
+    width: 150em;
+}
+
+p {
+    text-align: justify;
+    color: rgb(34, 16, 16);
+}
+
+.basico {
+    color: darkblue
+}
+
+.intermediario {
+    color: darkgoldenrod;
+}
+
+.avansado {
+    color: darkred;
+}

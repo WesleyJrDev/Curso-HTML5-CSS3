@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroupingTags</title>
+    <style>
+        body {
+            background-color: darkgrey;
+            margin: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color: aliceblue;
+            color: black;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px 5px;
+            box-shadow: 2px 2px 5px black;
+
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 15px;
+            margin: 15px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.613);
+            border-radius: 10px 5px;
+
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        section#assuntos {}
+
+        section#noticias {
+            background-color: darkgray;
+            padding: 5px;
+        }
+
+        aside {
+            background-color: rgba(129, 143, 105, 0.653);
+            padding: 2px;
+        }
+
+        nav {
+            font-weight: bold;
+            background-color: dimgray;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.613);
+
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: large;
+            margin-left: 5px;
+            margin-right: 45px;
+
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Meu site
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Noticias do Brasil</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci fugiat voluptatem dolorum amet
+                    odio et
+                    esse quam nam necessitatibus vitae natus nisi, aliquam voluptate quo consequatur labore ex,
+                    similique
+                    ea.</p>
+                <aside>
+                    <p id="aside">Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Wesley Junior</p>
+    </footer>
+
+</body>
+
+</html>

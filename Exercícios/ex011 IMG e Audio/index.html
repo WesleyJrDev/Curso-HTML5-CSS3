@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir essa imagem em dispositivos diferentes, ou aumente e dimuniar o tamanho da janela do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Audios</h1>
+    <p>Inserindo arquivo de audio em um site</p>
+    <!-- <audio src="midia/Emotional Mess - Amy Lynn & the Honey Men.mp3" autoplay></audio> -->
+
+    <audio preload="metadata" controls>
+        <source src="midia/Emotional Mess - Amy Lynn & the Honey Men.mp3" type="audio/mpeg">
+        <!-- <a href="midia/Emotional Mess - Amy Lynn & the Honey Men.mp3"> Emotional Mess - Amy Lynn & the Honey Men.mp3
+        </a> -->
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/God Rest Ye Merry Gentlmen - DJ Williams.mp3" type="audio/mpeg">
+        <!-- <a href="midia/God Rest Ye Merry Gentlmen - DJ Williams.mp3"> God Rest Ye Merry Gentlmen - DJ Williams.mp3"</a> -->
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/Ice & Fire - King Canyon.mp3" type="audio/mpeg">
+        <!-- <a href="midia/Ice & Fire - King Canyon.mp3">Ice & Fire - King Canyon.mp3</a> -->
+    </audio>
+
+</body>
+
+</html>
