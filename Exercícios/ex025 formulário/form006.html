@@ -8,7 +8,29 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Foto de perfil</legend>
+            <p>
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" id="foto">
+
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Selecione uma cor</legend>
+            <p>
+                <label for="cor">Cor</label>
+                <input type="color" name="cor" id="cor" value="#00ff00">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Nivel de satisfação</legend>
+            <p>
+                <input type="range" name="satisfacao" id="satisfacao" min="0" max="10" value="1">
+            </p>
+        </fieldset>
 
         <p>
             <input type="submit" value="Enviar">
