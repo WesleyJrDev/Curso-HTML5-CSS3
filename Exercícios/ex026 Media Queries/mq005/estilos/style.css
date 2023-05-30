@@ -6,6 +6,21 @@
     padding: 0px;
 }
 
+#menuburger{
+    display: block;
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menuburger:hover {
+    background-color: rgba(0, 0, 0, 0.151);
+    color: black;
+}
+
+
 body{
     background-color: darkgray;
 }
@@ -17,6 +32,10 @@ header {
 header h1{
     text-align: center;
     padding: 10px;
+}
+
+menu {
+    display: none;
 }
 
 menu ul {
